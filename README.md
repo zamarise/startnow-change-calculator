@@ -23,7 +23,6 @@ npm i -g node-static
 static
 ```
 
-
 ## Contact Information
 
 Twitter: [@adriftinthesea](https://twitter.com/adriftinthesea)
