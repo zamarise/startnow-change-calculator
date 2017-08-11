@@ -1,5 +1,5 @@
 # Change Calculator
-> Calculate change due. Seperated in dollars, quarters, dimes, nickels, and pennies.
+> Calculate change due. Separated in dollars, quarters, dimes, nickels, and pennies.
 
 This was my second project at Origin Code Academy. This Change Calculator was created using HTML, CSS, Bootstrap, jQuery, and JavaScript.
 
