@@ -3,7 +3,7 @@
 
 This was my second project at Origin Code Academy. This Change Calculator was created using HTML, CSS, Bootstrap, jQuery, and JavaScript.
 
-![](startnow-change-calculator/change-calculator.png)
+![](change-calculator.png)
 
 ## Approach
 
