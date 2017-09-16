@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,7 @@
 
   <title></title>
 
-      <!-- Bootstrap -->
+  <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -17,74 +18,84 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
+
 <body>
 
   <div class="container-fluid">
-    
+
     <h1></h1>
 
     <div class="panel panel-default">
-      
+
       <div class="well">
         <div class="row panel-body">
-          
-            <div class="col-sm-3">
-              <input id="amount-due" class="form-control" type="number" placeholder="Sale amount?" />
-            </div>
 
-            <div class="col-sm-3">
-              <input id="amount-received" class="form-control" type="number" placeholder="$ Received?" />
-            </div>
-
-            <div class="col-sm-6">
-              <button id="calculate-change" type="button" class="btn btn-primary btn-md btn-block">Calculate</button>
-            </div>
-          
-        </div>
-      </div>
-      
-      <div class="row">
-        
-
-          <div class="col-sm-12 text-center">
-            <h2><p id="dollars-output" class="lead"><kbd></kbd></p></h2>
-            <p class="lead">Dollar(s)</p>
+          <div class="col-sm-3">
+            <input id="amount-due" class="form-control" type="number" placeholder="Sale amount?" />
           </div>
 
-          
-      </div>  
+          <div class="col-sm-3">
+            <input id="amount-received" class="form-control" type="number" placeholder="$ Received?" />
+          </div>
+
+          <div class="col-sm-6">
+            <button id="calculate-change" type="button" class="btn btn-primary btn-md btn-block">Calculate</button>
+          </div>
+
+        </div>
+      </div>
 
       <div class="row">
 
-            <div class="col-sm-3 text-center">
-              <h2><p id="quarters-output" class="lead"><kbd></kbd></p></h2>
-              <p class="lead">Quarter(s)</p>
-            </div>
 
-            <div class="col-sm-3 text-center">
-              <h2><p id="dimes-output" class="lead"><kbd><kbd></p></h2>
+        <div class="col-sm-12 text-center">
+          <h2>
+            <p id="dollars-output" class="lead"><kbd></kbd></p>
+          </h2>
+          <p class="lead">Dollar(s)</p>
+        </div>
+
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-3 text-center">
+          <h2>
+            <p id="quarters-output" class="lead"><kbd></kbd></p>
+          </h2>
+          <p class="lead">Quarter(s)</p>
+        </div>
+
+        <div class="col-sm-3 text-center">
+          <h2>
+            <p id="dimes-output" class="lead"><kbd><kbd></p></h2>
               <p class="lead">Dime(s)</p>
             </div>
 
             <div class="col-sm-3 text-center">
-              <h2><p id="nickels-output" class="lead"><kbd></kbd></p></h2>
-              <p class="lead">Nickel(s)</p>
-            </div>
+              <h2><p id="nickels-output" class="lead"><kbd></kbd></p>
+          </h2>
+          <p class="lead">Nickel(s)</p>
+        </div>
 
-            <div class="col-sm-3 text-center">
-              <h2><p id="pennies-output" class="lead"><kbd></kbd></p></h2>
-              <p class="lead">Pennie(s)</p>
-            </div>
+        <div class="col-sm-3 text-center">
+          <h2>
+            <p id="pennies-output" class="lead"><kbd></kbd></p>
+          </h2>
+          <p class="lead">Pennie(s)</p>
+        </div>
 
-      </div> 
+      </div>
 
-    </div> 
+    </div>
 
   </div>
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="main.js" charset="utf-8"></script>
 
 </body>
+
 </html>
